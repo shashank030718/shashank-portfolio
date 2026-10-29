@@ -5,7 +5,7 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'ap-south-1'
         S3_BUCKET = 's3://shashank-portfolio-site-2027'
-        CLOUDFRONT_DISTRIBUTION_ID = 'E2BTT4U5SPX74V'
+        CLOUDFRONT_DISTRIBUTION_ID = 'E2BTT4US5PX74V'
         PATH = "/usr/local/bin:/usr/bin:/bin:${env.PATH}"
     }
 
